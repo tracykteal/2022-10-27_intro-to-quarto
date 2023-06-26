@@ -11,7 +11,6 @@ format:
     transition: fade
     background-transition: fade
     highlight-style: pygments
-    footer: "https://ivelasq.quarto.pub/intro-to-quarto/"
 ---
 
 ##  {.title}
@@ -21,10 +20,10 @@ Intro to [Quarto]{.flow}
 :::
 
 ::: {style="font-size: 80px"}
-Isabella Velásquez
+Tracy Teal
 :::
 
-R-Ladies St. Louis
+From Isabella Velásquez's R-Ladies St. Louis presentation
 
 ::: notes
 Hi everybody! Thank you so much for joining today's session. I am so excited to introduce Quarto and many thanks to Laura and the R-Ladies St. Louis co-organizers for having me today.
@@ -32,23 +31,12 @@ Hi everybody! Thank you so much for joining today's session. I am so excited to 
 
 # Introduction {.r-stretch}
 
-## Hello!
-
-My name is Isabella Velásquez.
-
-{{< fa brands twitter size=1.4xl >}} ivelasq3 | {{< fa brands linkedin size=1.4xl >}} ivelasq | {{< fa brands github size=1.4xl >}} ivelasq | {{< fa browser size=1.4xl >}} ivelasq.rbind.io
-
-![](images/intro.png){fig-align="center"}
-
-::: notes
-My name is Isabella Velásquez. I work at RStudio, soon to be Posit, and have been an R user for many years. I am a co-organizer for R-Ladies Seattle, as well. Just a bit about me, I am an avid hiker and love cats, especially my cat, Kitty. I am also a digital illustration beginner, as you will see in my presentation today.
-:::
 
 ## Instructions {.small}
 
 ::: incremental
--   Slides: <https://ivelasq.quarto.pub/intro-to-quarto/>
--   Session repo with instructions: <https://github.com/ivelasq/2022-10-27_intro-to-quarto>
+-   Slides: <https://tracykteal.quarto.pub/intro-to-quarto/>
+-   Session repo with instructions: <https://github.com/tracykteal/2022-10-27_intro-to-quarto>
 -   Exercise repo: <https://github.com/ivelasq/intro-to-quarto-exercises>
 -   rstudio.cloud Project: <https://rstudio.cloud/content/4823293>
 :::
@@ -102,7 +90,7 @@ Quarto is an open-source scientific and technical publishing system built on Pan
 ## Quarto Origins
 
 ::: incremental
--   Open source project sponsored by RStudio, PBC
+-   Open source project sponsored by Posit Software, PBC (formerly RStudio)
 -   We've had 10 years of experience with R Markdown
 -   But there are a lot of other programming languages...
 :::
@@ -338,19 +326,6 @@ The structure is similar for Jupyter, we just are running documents natively thr
 ::: {.column width="50%"}
 ![](images/jupyter-plot.png)
 :::
-:::
-
-## Quarto Engines
-
-### Observable JS
-
--   Native support for Observable JS
--   Reactive runtime for interactive data analysis
-
-[Observable Demo](https://quarto.org/docs/computations/ojs.html#example){preview-link="true"}
-
-::: notes
-Quarto has native support for Observable JS, a set of enhancements to vanilla JS. It has reactive runtime, so you can interactively work with data within your Quarto document. There are other options too, like htmlwidgets and Shiny for Python.
 :::
 
 ## Why Quarto?
@@ -1550,9 +1525,9 @@ Let's try it!
 
 I hope that you enjoyed this intro to Quarto!
 
--   Keep in touch on Twitter: {{< fa brands twitter size=1.4xl >}} [ivelasq3](https://twitter.com/ivelasq3).
 -   Read the [Quarto documentation](https://quarto.org/).
 -   Check out [Awesome Quarto](https://github.com/mcanouil/awesome-quarto).
+-   Ask questions in [Quarto discussions](https://github.com/quarto-dev/quarto-cli/discussions)
 
 ## Acknowledgements
 
