@@ -26,7 +26,7 @@ Tracy Teal
 From Isabella Velásquez's R-Ladies St. Louis presentation
 
 ::: notes
-Hi everybody! Thank you so much for joining today's session. I am so excited to introduce Quarto and many thanks to Laura and the R-Ladies St. Louis co-organizers for having me today.
+Hi everybody! Thank you so much for joining today's session. I am so excited to introduce Quarto and many thanks to Laura and the R-Ladies St. Louis co-organizers for having me today hi there.
 :::
 
 # Introduction {.r-stretch}
